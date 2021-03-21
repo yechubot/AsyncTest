@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 } else {
                     value++;
-                    publishProgress(value);
+                    publishProgress(value); //call onProgressUpdate
                     try {
                         Thread.sleep(100);
                     } catch (InterruptedException e) {
